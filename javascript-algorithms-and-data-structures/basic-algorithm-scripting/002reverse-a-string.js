@@ -1,14 +1,14 @@
 function reverseString(str) {
   let arr = Array.from(str);
   let newArr = [];
-  for (let i = (arr.length - 1); i >= 0; i--) {
+  for (let i = arr.length - 1; i >= 0; i--) {
     newArr.push(arr[i]);
   }
-  str = newArr.join('')
+  str = newArr.join('');
   return str;
 }
 
-reverseString("hello");
+reverseString('hello');
 /*
 function reverseString(str) {
   return str
